@@ -1,0 +1,38 @@
+.home{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #0c1618e4;
+}
+#home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.home h1{
+    margin-top: 25px;
+    font-weight: 900;
+}
+.category{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.category:hover{
+    color: white;
+    background-color: #0C1618;
+    border: 2px solid white;
+}
+.category h2{
+    font-weight: 900;
+}
+.category p{
+    max-width: 500px;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 2em;
+    padding: 20px;
+    font-weight: bold;
+}

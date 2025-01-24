@@ -1,0 +1,54 @@
+#criarLogin-container{
+    background-image: url('https://i.pinimg.com/originals/0e/ed/c9/0eedc9e9a5104635d84d3b06b3e162b5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#form-container-criar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#form-criar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccccccc7 ;
+    border: 2px solid black;
+    border-radius:  10px;
+    padding: 25px;
+    gap: 25px;
+    width: 500px;
+}
+#form-criar h2{
+    font-weight: 900;
+    text-align: center;
+}
+#form-criar label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#form-criar input[type="submit"]{
+    cursor: pointer;
+    font-weight: 900;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 1s;
+}
+#form-criar input[type="submit"]:hover{
+    background-color: white;
+}
+#form-criar span{
+    font-weight: 800;
+}
+#form-criar input{
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}

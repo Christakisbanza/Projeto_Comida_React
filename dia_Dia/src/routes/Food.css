@@ -1,0 +1,28 @@
+.food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin-top: 40px;
+}
+.food-container{
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.food-container img{
+    width: 400px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+.food-container img:hover{
+    border: 5px solid ;
+}
+#food-descricao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#food-descricao p{
+    font-weight: 900;
+}
